@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+
+}
+
+.navbar-brand img {
+    width:150px;
+    
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important 
+}
+
+.carousel-indicators li {
+    color:black;
+
+}
+
+.carousel-caption h1{
+    color: rgb(235, 224, 224);
+
+}
+.carousel-caption h3{
+    color:rgb(235, 225, 225);
+
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+@media (min-width: 1100px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    text-shadow: 10px 10px 20px black;
+}
+
+@media (max-width:450px) {
+    .carousel-caption h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:450px) {
+    #products h1 {
+        font-size: 3em;
+    }
+}
+
+.jumbotron {
+    padding: 10px;
+    border-radius: 0;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.padding {
+    padding-bottom: 10px;
+}
+
+.alert{
+    padding: 10px;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.alert h1 {
+    text-align: center;
+}
+
+.fa-leaf{color:green}
+.fa-thumbs-up{color:yellow}
+.fa-coffee{color:brown}
+
+.fa-leaf, .fa-coffee, .fa-thumbs-up {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.somebr {
+    width:90%;
+    border-top: 2px solid gray;
+}
+
+.rollshield {
+    text-align: center;
+}
+
+.card-img-top {
+    width:100%;
+    height:100%;
+}
+
+#cookes .card-img-top {
+    width:100%;
+    height:250px
+
+}
+
+.cookes {
+    margin-left: 20px;
+    color: brown;
+    display: flex;
+} 
+
+.pies {
+    margin-left: 20px;
+    color: rgb(233, 212, 27);
+ 
+
+} 
+
+.coff1{
+    align-content: center;
+    font-size: 30px;
+}
+
+.fa-fire{
+    align-content: center;
+    font-size: 30px;
+}
+
+.contact_link {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contact_link:hover {
+    color: #222;
+}
+
+#contacts ul li {
+    text-align: left;
+}
+
+@media (max-width:450px) {
+    #contacts h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:450px) {
+    .rollshield  {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:450px) {
+    .lead {
+        font-size:15px;
+    }
+}
+ 
+#contacts h1, h3 {
+        color: rgb(15, 15, 136);
+    }
+
+
+
+     
