@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0 ">
+  <meta http-equiv="X-UA-Compatible" content = "ei=edge">
+  <title>bootstap</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+       <a href="#" class="navbar-brand"><img src="img/logo.png"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbar-responsive">
+          <ul class="navbar-nav ml-auto">
+              <li class = "nav-item active">
+                  <a class="nav-link" href = "#">About us</a>
+              </li>
+              <li class = "nav-item">
+                <a class="nav-link"  href = "#products">Production</a>
+              </li>
+              <li class = "nav-item">
+                <a class="nav-link" href = "#contacts">Contacts</a>
+              </li>
+              <li class = "nav-item">
+                <a class="nav-link" href = "#new">New 🔥</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+    </nav>
+    <div class = "carousel slide" data-ride = "carousel" id = "slider">
+        <ul class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1" ></li>
+            <li data-target="#slider" data-slide-to="2" ></li>
+        </ul>
+        <div class ="carousel-inner">
+            <div class = "carousel-item active">
+                <img src="img/slider-1.jfif">
+                <div class= "carousel-caption">
+                    <h1 class="display-2">Our pies are very tasty</h1>
+                    <h3>Go to us and see yorself </h3>
+                    <a href="#someinformation"><button type = "button" class="btn-secondary btn-lg">See more</button></a>
+                    <a href="https://prosto-vkusno.by/#menu"><button type = "button" class="btn-warning btn-lg">Official page</button></a>
+                </div>
+            </div>
+            <div class = "carousel-item ">
+                <img src="img/slider-2.jfif">
+            </div>
+            <div class = "carousel-item ">
+                <img src="img/slider-3.jfif">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class = "row jumbotron">
+            <div class = "col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class = "lead">Our desserts have already become everyone's favorite. We cook them with love for you and use natural ingredients that make the cakes so delicious. Our recipes are a separate art and we are constantly improving for you and coming up with something new</p>
+            </div>
+            <div class = "col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#products"><button type="button" class = "btn btn-success btn-lg">Look bellow</button></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid" id = "someinformation">
+        <div class = "row alert">
+            <div class = "col-xs-12 ">
+                <h1>Some information</h1>
+                <hr class = "somebr">
+            <p class = "lead">We make the best treats just for you. We are constantly expanding and striving for the best quality of service - you can come to our store and see for yourself. In addition, we have free delivery in Polotsk and Novopolotsk</p>
+            </div>
+        </div>
+    </div>            
+    <div class="container-fluid padding">
+        <div class = "row text-center padding" >
+            <div class = "col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-leaf" aria-hidden="true"></i>
+                <h3>Quality</h3>
+                <p>We are use only natural products</p>
+            </div>
+            <div class = "col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <h3>Tasty</h3>
+                <p>Our cakes the most delitious in Belarus</p>
+            </div>
+            <div class = "col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+                <h3>Price</h3>
+                <p>Low price and good service</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid padding" id = "new">
+        <div class = "row padding">
+        <div class = "offset-lg-1 col-lg-5">
+            <h2 class="display-3 rollshield">New!!!</h2>
+            <ul>
+                <li>Hosomaki, Oshizushi or Uramaki</li>
+                <li>100500 types of rolls. Eyes just run up! And how do they differ at all?!?
+                    standard portion of 8 rolls</li>
+                <li>Roll with salmon and orange, roll with tuna and avocado or roll with shrimp</li>
+                <li>No hard-to-pronounce names, each roll is worked out by the chef.
+                    Everything is balanced and no one is alike</li>
+                <li>The ability to make a portion of 2 different types of rolls.
+                    You can try each faster</li>
+            </ul>
+            <a href = "https://sushi.prosto-vkusno.by/" class = "btn btn-danger">have time to try</a>
+        </div>
+        <div class = "col-lg-6">
+            <img src = "img/new.jfif" class = "img-fluid">
+        </div>
+    </div>
+    </div>
+    <div class = "container-fluid " id = "products" >
+        <h1 class = "display-2" > Our kichen</h1>
+        <hr class = "somebr">
+        <h1 class = "display-4 pies"> Our pies <i class="fas fa-chart-pie"></i></h1>
+        <div class = "row padding">
+            
+            <div class="card col-sm-6 col-lg-3">
+                <img class="card-img-top" src="img/cake1.jpg" >
+                <div class="card-body">
+                  <h4 class="card-title">Red velvet</h4>
+                  <p class="card-text">
+                    <ul>
+                        <li>tender biscuit</li>
+                        <li>Mascarpone cheese</li>
+                        <li>wild cherry</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>    
+              
+               <div class="card col-sm-6 col-lg-3">
+                <img class="card-img-top" src="img/cake2jfif.jfif" >
+                <div class="card-body">
+                  <h4 class="card-title">Foxy</h4>
+                  <p class="card-text">
+                    <ul>
+                        <li>honey cakes</li>
+                        <li>Mascarpone cheese</li>
+                        <li>sour cream</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>    
+
+              <div class="card col-sm-6 col-lg-3">
+                <img class="card-img-top" src="img/cake3.jpg" >
+                <div class="card-body">
+                  <h4 class="card-title">Green moss</h4>
+                  <p class="card-text">
+                    <ul>
+                        <li>tender biscuit</li>
+                        <li>Mascarpone cheese</li>
+                        <li>spinach</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>   
+
+              <div class="card col-sm-6 col-lg-3">
+                <img class="card-img-top" src="img/cake4.jpg" >
+                <div class="card-body">
+                  <h4 class="card-title">Carrot cake</h4>
+                  <p class="card-text">
+                    <ul>
+                        <li>sand cakes</li>
+                        <li>Mascarpone cheese</li>
+                        <li>soft carrot</li>
+                    </ul>
+                  </p>
+                </div>
+              </div> 
+        
+    </div>
+    <h1 class = "display-4 cookes"><p>Our cookes</p> <i class="fa fa-coffee coff1" aria-hidden="true"></i></h1>
+    <div class = "row padding" id = "cookes">
+        
+        <div class="card col-sm-6 col-lg-3">
+            <img class="card-img-top" src="img/cookes1.jpeg" >
+            <div class="card-body">
+              <h4 class="card-title">Lemon tartlet</h4>
+              <p class="card-text">
+                <ul>
+                    <li>tender biscuit</li>
+                    <li>Mascarpone cheese</li>
+                    <li>lemon</li>
+                </ul>
+              </p>
+            </div>
+          </div>    
+          
+           <div class="card col-sm-6 col-lg-3">
+            <img class="card-img-top" src="img/cookes2.jpeg" >
+            <div class="card-body">
+              <h4 class="card-title">Tartlet with salt caramel</h4>
+              <p class="card-text">
+                <ul>
+                    <li>salt caramel</li>
+                    <li>almond</li>
+                    <li>tasty chocolate</li>
+                </ul>
+              </p>
+            </div>
+          </div>    
+
+          <div class="card col-sm-6 col-lg-3">
+            <img class="card-img-top" src="img/cookes3.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Eclair</h4>
+              <p class="card-text">
+                <ul>
+                    <li>condensed milk</li>
+                    <li>puff pastry</li>
+                    
+                </ul>
+              </p>
+            </div>
+          </div>   
+
+          <div class="card col-sm-6 col-lg-3">
+            <img class="card-img-top" src="img/cookes4.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Mousse</h4>
+              <p class="card-text">
+                <ul>
+                    <li>wild blackberry</li>
+                    <li>Mascarpone cheese</li>
+                    <li>soft mousse</li>
+                </ul>
+              </p>
+            </div>
+          </div> 
+    
+</div>
+    </div>
+    <div class = "container fluid padding" id = "contacts">
+        <h1 class = "display-3">Contacts</h1>
+        <hr class = "somebr">
+        <div class = "row padding">
+            <div class = "col-md-6">
+            <ul><h3>We waiting you in:</h3>
+                <li>SEC "Manezh", city of Polotsk, Vilnius highway, 1</li>
+                <li>QuickCoffee, Novopolotsk, st. Kalinina, 5a</li>
+                <li>QuickCoffee, Polotsk, F. Skorina Ave., 13</li>
+                <li>MR.MEDVED 'COFFEE, Polotsk, F. Skaryna avenue, 11</li>
+                <li>Dionis, the city of Polotsk, st. Oktyabrskaya, 42 (Railway Station)</li>
+            </ul>
+            </div>
+            <div class = "offset-md-2 col-md-4">
+                <a class = "contact_link" href = "https://vk.com/prosto_vkusno_by"><i class="fab fa-vk "></i>
+                <a class = "contact_link" href = "https://www.instagram.com/prosto_vkusno.by/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
